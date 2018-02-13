@@ -1,0 +1,416 @@
+body{
+	font-family: 'Saira Extra Condensed',sans-serif;
+	font-size: 14px;
+	margin: 0px;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/********************************************************/
+/*********************** Header Area *******************/
+/******************************************************/
+.header-area{
+	background: url("images/header-bg.png") no-repeat;
+	background-size: auto; 
+	background-position: center;
+	padding-top: 500px;
+	padding-bottom: 252px;
+	overflow: hidden;
+}
+.main-slider{
+	text-align: center;
+	overflow: hidden;
+
+}
+.single-slide{
+	margin: 0px;
+	padding: 0px;
+}
+.single-slide h1{
+	font-size: 60px;
+	color: #ffffff;
+	border-top:2px solid #ffffff;
+	border-bottom:2px solid #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	display: block;
+	display: inline-block;
+}
+.single-slide a{
+	font-size: 18px;
+	color: #ffffff;
+	border:2px solid #FFF;
+	border-radius: 2px;
+	padding: 8px 22px;
+	margin-top: 35px;
+	transition: .5s;
+	display: inline-block;
+	text-transform: uppercase;
+	overflow: hidden;
+}
+.single-slide a:hover{
+	border-color: #2ecc71;
+	color: #FFF;
+	background: #2ecc71;
+}
+.header-area .owl-theme .owl-dots .owl-dot span {
+	background: transparent;
+	border:2px solid #fefefe;
+}
+.header-area .owl-theme .owl-dots .owl-dot.active span,.header-area .owl-theme .owl-dots .owl-dot:hover span{
+	background:#fefefe;
+}
+
+/********************************************************/
+/*********************** Menu Area *********************/
+/******************************************************/
+
+.menu{
+	background: #252e30;
+}
+.menu h1{
+	color: #ffffff;
+	font-size: 30px;
+	padding: 10px 0px;
+	
+}
+.menu strong{
+	font-size: 34px;
+	background: #4b5456;
+	padding: 2px 15px;
+	
+}
+.menu span{
+	color: #2ecc71;
+}
+.menu .navbar-light .navbar-toggler {
+	color: rgba(0,255,0,.5);
+	border-color: rgba(0,255,0,.1);
+	background: rgba(0,255,0,.1);
+}
+.menu .navbar-light .navbar-nav .nav-link.active{
+	color: #2ecc71;
+}
+.menu .navbar-light .navbar-nav .nav-link {
+	color: #FFF;
+	text-transform: uppercase;
+}
+.menu .navbar-light .navbar-nav a:hover {
+	color: #2ecc71;
+}
+/********************************************************/
+/*********************** History Area ******************/
+/******************************************************/
+.history-area{
+	padding: 98px 0px;
+}
+.single-history h1{
+	font-size: 30px;
+	color: #566366;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-bottom: 48px;
+}
+.single-history p{
+	font-size: 18px;
+	color: #919191;
+	font-weight: 400;
+}
+/********************************************************/
+/*********************** About Area ********************/
+/******************************************************/
+.aboutme{
+	background: #f2f2f1;
+}
+.single-aboutme-area h1{
+	padding-top: 97px;
+	font-size: 30px;
+	font-weight: 700;
+	color: #566366;
+	text-transform: uppercase;
+	padding-bottom: 45px;
+}
+.single-aboutme-area p{
+	font-size: 18px;
+	color: #919191;
+}
+.single-aboutme-area img{
+	width: 100%;
+}
+.single-about h1{
+	padding-top: 60px;
+	float: left;
+	color: #566366;
+	font-size: 20px;
+	padding-bottom: 0px;
+}
+.single-about i{
+	font-size: 20px;
+	float: left;
+	padding-top: 65px;
+	padding-right: 23px;
+	color: #2ecc71;
+}
+.single-about p{
+	clear:both;
+	font-size: 18px;
+	color: #919191;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+/********************************************************/
+/*********************** MySkill Area ******************/
+/******************************************************/
+.myskill-area{
+	padding-top: 97px;
+	padding-bottom: 97px;
+}
+.single-skill h1{
+	font-size: 30px;
+	color: #566366;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+.single-skill h2{
+	font-size: 22px;
+	color: #566366;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 38px;
+}
+.single-skill p{
+	font-size: 18px;
+	color: #919191;
+	padding-top: 30px;
+}
+.single-skill a{
+	font-size: 18px;
+	color: #919191;
+	border:2px solid #919191;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 8px 22px;
+	margin-top: 35px;
+	transition: .5s;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.single-skill a:hover{
+	border-color: #2ecc71;
+	color: #2ecc71;
+}
+.progress {
+    height: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.progress-bar {
+	text-align: right;
+}
+/********************************************************/
+/*********************** Resume Area *******************/
+/******************************************************/
+.resume-area{
+	text-align: center;
+	background: #f2f2f1;
+	padding-top: 97px;
+	padding-bottom: 97px;
+}
+.resume-area h1{
+	color: #566366;
+	font-size: 30px;
+}
+.resume-area p{
+	color: #919191;
+	font-size: 18px;
+}
+.resume-area a{
+	font-size: 18px;
+	color: #919191;
+	border:2px solid #919191;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 8px 22px;
+	margin-top: 35px;
+	transition: .5s;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.resume-area a:hover{
+	border-color: #2ecc71;
+	color: #2ecc71;
+}
+/********************************************************/
+/*********************** Education Area ****************/
+/******************************************************/
+.education-area{
+	padding-top: 98px;
+	padding-bottom: 98px;
+}
+.single-education h1{
+	font-size: 30px;
+	color: #566366;
+	padding-bottom: 45px;
+}
+.single-education h2{
+	font-size: 22px;
+	color: #566366;
+	padding-top: 79px;
+}
+.single-education h3{
+	color: #919191;
+	font-size: 18px;
+}
+.single-education h4{
+	color: #FFF;
+	font-size: 14px;
+	background: #2ecc71;
+	border:2px solid #2ecc71;
+	border-radius: 1px;
+	display: inline-block;
+	padding: 8px 10px;
+	margin-top: 22px;
+}
+.single-education p{
+	color: #919191;
+	font-size: 18px;
+}
+/********************************************************/
+/*********************** Client Says Area **************/
+/******************************************************/
+.client-says-area{
+	padding-top: 98px;
+	padding-bottom: 100px;
+	background: #f2f2f1;
+	text-align: center;
+}
+.single-carousel p{
+	color: #919191;
+	font-size: 24px;
+	width: 100%;
+}
+.single-carousel h3{
+	color: #919191;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 45px;
+	padding-bottom: 25px;
+}
+.client-says-area .owl-theme .owl-dots .owl-dot span {
+	background: #f2f2f1;
+	border:2px solid #2ecc71;
+	
+
+}
+.client-says-area .owl-theme .owl-dots .owl-dot.active span,.client-says-area.owl-theme .owl-dots .owl-dot:hover span{
+	background:#2ecc71;
+}
+/********************************************************/
+/*********************** Portfolio Area ****************/
+/******************************************************/
+.portfolio-area{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.p-heading h1{
+	font-size: 30px;
+	color: #566366;
+}
+.p-heading p{
+	color: #919191;
+	font-size: 18px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.single-portfolio{
+	padding-bottom: 30px;
+}
+.single-portfolio img{
+	width: 100%;
+}
+.single-portfolio img:hover{
+	cursor: zoom-in;
+	opacity: .5;
+}
+.contact-area{
+	background: #252e30;
+	padding-top: 98px;
+	padding-bottom:  98px;
+}
+.single-contact{}
+.single-contact h1{
+	font-size: 30px;
+	color: #ffffff;
+	padding-bottom: 45px;
+}
+.single-contact p{
+	color: #919191;
+	font-size: 18px;
+}
+.single-contact span{
+	color: #ffffff;
+}
+.single-contact label{
+	color: #ffffff;
+	font-size: 18px;
+}
+.single-contact input{
+	background: #4b5456;
+	border-color: #4b5456;
+}
+.single-contact textarea{
+	background: #4b5456;
+	border-color: #4b5456;
+}
+
+.single-contact button{
+	background: #191f21;
+	color: #FFF;
+	border-color: #191f21;
+}
+.footer-area{
+	background: #191f21;
+	padding-top: 45px;
+	padding-bottom:  49px;
+	text-align: center;
+}
+.footer-area p{
+	color: #4b5456;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+.footer-area a{
+	font-size: 18px;
+}
+.footer-area i{
+	background: #4b5456;
+	height: 35px;
+	width:35px;
+	padding: 2px;
+	border-radius: 50%;
+	color: #191f21;
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+}
+.footer-area i:hover{
+	color: #FFF;
+}
